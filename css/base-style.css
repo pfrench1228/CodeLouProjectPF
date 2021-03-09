@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    background-color: ivory;
+}
+
+/* Base Styles -------------------- */
+
+
+/* ---- Navigation ---- */
+
+.name {
+	font-size: 1.7em;
+	margin: 0;
+}
+.main-nav {
+	margin-top: 5px;
+}
+.name, .logo, .main-nav {
+	text-align: center;
+	display: block;
+	padding: 10px 5px;
+}
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    min-width: 250px;
+    max-width: 400px;
+}
+.main-nav a {
+	font-size: .95em;
+	color: #3acec2;
+	text-transform: uppercase;
+}
+.main-nav a:hover {
+	color: #093a58;
+}
+
+/* Hamburger Menu */
+
+.main-nav {
+	display: none;
+}
+
+.icon {
+	display: block;
+	position: absolute;
+	width: 15%;
+	right: 0;
+	top: 0;
+}
+.icon img{
+    width: 100%;
+	padding: 10% 10%;
+}
+.icon img:hover {
+	transform: scale(1.25);
+}
+
+/* ---- Layout Containers ---- */
+
+.main-header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+
+ul, i, b {
+    background: gainsboro;
+}
+
+img {
+    border-radius: 5%;
+}
+/* Form Fields -------------------- */
+
+
+/* Media Queries -------------------- */
+

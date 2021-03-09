@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/base-style.css">
+    <link rel="stylesheet" href="css/header-style.css">
+    <script src="menu.js"></script>
+    <title>Hill View Farms</title>
+</head>
+<body>
+    
+    <header class="main-header">
+        <h1 class="name">Taste the Difference</h1>
+        <img class="logo" src="img/HVFlogo.JPG" alt="Hill View Farms Logo"></img>
+        <div class="icon">
+            <img src="img/menu.jpg" onclick="menuFxn()" alt="Nav Menu"></img>
+            <nav class="main-nav">
+                <a href="#paragraph">The Market</a>
+                <a href="#pictures">Who We Are</a>
+                <a href="#Contact">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        
+
+        <p id="paragraph">
+            <ul>At Hill View Farms Market, we sell meat, produce, and Kentucky products made just for you. Our farm fresh beef is grown right in your community by our family, the Gilles'. We also support our other local farming families here in Western Kentucky and bring to you our own selection of Kentucky Proud products! <i>Thank you for supporting us.</i></ul>
+            <ul>Hill View Farms is the modern day family business of the 5th generation Gilles family here in Owensboro, Kentucky. Our family has supported our local community since the 19th century, and we call this place home. We want to provide you access to our heritage, values, and family life through this store. You can visit us at Hill View Farms Market or at the weekly Farmers Market. <b>Thank you for shopping local!</b></ul>
+        </p>
+
+        <img id="pictures" src="img/HVFcow.png" alt="Hill View Farms Marketing Image"></img>
+
+        <div id="Contact">
+            <h3 id="Contact">If you would like access to special offers, please sign up for our contact list!</h3>
+            <fieldset>
+                <legend>Contact Form</legend>
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="user_fname" placeholder="First Name">
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="user_lname" placeholder="Last Name">
+                <label for="mail">Email:</label>
+                <input type="email" id="mail" name="user_email" placeholder="Email">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="user_phone" placeholder="Phone Number">
+                <button type="submit">Sign up</button>
+            </fieldset>
+        </div>
+    </main>
+
+    <footer>
+        <p><strong>We look forward to meeting you!</strong></p>
+        <aside>Contact us at<br>XXX-XXX-XXXX<br>or<br>HFVMarket@email.com
+        </aside><br>
+        <span>&copy;2021 Hill View Farms Market, LLC. All rights reserved.</span>
+    </footer>
+    
+</body>
+</html>

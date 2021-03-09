@@ -1,0 +1,39 @@
+
+
+
+
+
+/* Media Queries */
+
+@media (min-width: 650px) {
+    .name {
+        font-size: 2em;
+    }
+	.main-header {
+		width: 80%;
+		margin: 0 auto;
+	}
+    .main-nav a {
+        font-size: 1.1em;
+    }
+}
+
+
+
+/* Flex Box */
+@media (min-width: 650px) {
+.main-header, .main-nav {
+		display: flex;
+	}
+	.main-header {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+@media (min-width: 1350px) {
+    .main-header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
