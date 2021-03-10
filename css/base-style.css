@@ -9,7 +9,7 @@
 /* ---- Navigation ---- */
 
 .name {
-	font-size: 1.7em;
+	font-size: 1.5em;
 	margin: 0;
 }
 .main-nav {
@@ -20,6 +20,17 @@
 	display: block;
 	padding: 10px 5px;
 }
+.main-nav a {
+	display: block;
+	text-decoration: none;
+	text-decoration-color: black;
+}
+.icon {
+	text-align: center;
+	/* border-left: 4px solid gainsboro;
+	border-bottom: 4px solid gainsboro;
+	border-radius: 7px; */
+}
 .logo {
     display: block;
     margin-left: auto;
@@ -29,12 +40,16 @@
     max-width: 400px;
 }
 .main-nav a {
-	font-size: .95em;
-	color: #3acec2;
+	font-size: .67em;
+	color: black;
 	text-transform: uppercase;
+	padding: 3px 3px;
+	margin: 3px 3px;
+	background: crimson;
+	border-radius: 3px;
 }
 .main-nav a:hover {
-	color: #093a58;
+	color: ivory;
 }
 
 /* Hamburger Menu */
@@ -42,14 +57,17 @@
 .main-nav {
 	display: none;
 }
-
 .icon {
 	display: block;
 	position: absolute;
+	/* position: initial; */
 	width: 15%;
 	right: 0;
 	top: 0;
 }
+/* .burg {
+	display: none;	
+} */
 .icon img{
     width: 100%;
 	padding: 10% 10%;
