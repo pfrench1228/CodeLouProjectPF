@@ -13,7 +13,7 @@
 	margin: 0;
 }
 .main-nav {
-	margin-top: 5px;
+	margin: 10% 0;
 }
 .name, .logo, .main-nav {
 	text-align: center;
@@ -27,9 +27,6 @@
 }
 .icon {
 	text-align: center;
-	/* border-left: 4px solid gainsboro;
-	border-bottom: 4px solid gainsboro;
-	border-radius: 7px; */
 }
 .logo {
     display: block;
@@ -37,7 +34,7 @@
     margin-right: auto;
     width: 50%;
     min-width: 250px;
-    max-width: 400px;
+    max-width: 300px;
 }
 .main-nav a {
 	font-size: .67em;
@@ -65,9 +62,6 @@
 	right: 0;
 	top: 0;
 }
-/* .burg {
-	display: none;	
-} */
 .icon img{
     width: 100%;
 	padding: 10% 10%;

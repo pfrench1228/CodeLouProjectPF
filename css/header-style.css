@@ -8,11 +8,36 @@
         font-size: 2em;
     }
 	.main-header {
-		width: 80%;
+        background: indianred; 
+		width: 100%;
 		margin: 0 auto;
 	}
     .main-nav a {
         font-size: 1.1em;
+        width: 150px;
+    }
+    .main-nav {
+        width: 90%;
+        max-width: 180px;
+        padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 25px;
+        background: ivory;
+    }
+    .burg {
+        display: none;
+    }
+    .icon {
+        position: initial;
+        width: 40%;
+        max-width: 225px;
+        border-radius: 35px;
+        background: black;
+    }
+    .name, .logo, .icon {
+        padding: 0 5px;
+        margin: 4px 0;
     }
 }
 
@@ -20,16 +45,17 @@
 
 /* Flex Box */
 @media (min-width: 650px) {
-.main-header, .main-nav {
+    .main-header, .main-nav {
 		display: flex;
 	}
-	.main-header {
+	.main-header, .main-nav {
 		flex-direction: column;
 		align-items: center;
 	}
+
 }
 
-@media (min-width: 1350px) {
+@media (min-width: 1070px) {
     .main-header {
         flex-direction: row;
         justify-content: space-between;
