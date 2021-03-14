@@ -1,63 +1,113 @@
-
-
-
 /* Media Queries */
 
-@media (min-width: 650px) {
-    .name {
-        font-size: 2em;
+    /* Flex Box */
+    @media (min-width: 650px) {
+        .main-header, .main-nav {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .main-content {
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
     }
-	.main-header {
-        background: indianred; 
-		width: 100%;
-		margin: 0 auto;
-	}
-    .main-nav a {
-        font-size: 1.1em;
-        width: 150px;
+    @media (min-width: 1070px) {
+        .main-header, .main-nav {
+            flex-direction: row;
+            justify-content: space-around;
+        }
     }
-    .main-nav {
-        width: 90%;
-        max-width: 180px;
-        padding: 10px;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 25px;
-        background: ivory;
-    }
-    .burg {
-        display: none;
-    }
-    .icon {
-        position: initial;
-        width: 40%;
-        max-width: 225px;
-        border-radius: 35px;
-        background: black;
-    }
-    .name, .logo, .icon {
-        padding: 0 5px;
-        margin: 4px 0;
-    }
-}
 
+        /* Header */
+        @media (min-width: 650px) {
+            .name {
+                font-size: 2em;
+            }
+            .main-header {
+                background: indianred; 
+                width: 100%;
+                margin: 0 auto;
+            }
+            .main-nav a {
+                font-size: 1.1em;
+                width: 150px;
+            }
+            .main-nav {
+                width: 90%;
+                max-width: 180px;
+                padding: 5px;
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 25px;
+                background: ivory;
+            }
+            .burg {
+                display: none;
+            }
+            .icon {
+                position: initial;
+                width: 30%;
+                max-width: 225px;
+                border-radius: 35px;
+                /* background: black; */
+            }
+            .name, .logo, .icon {
+                padding: 0 5px;
+                margin: 4px 0;
+            }
+        }
+        @media (min-width: 1070px) {
+            .name {
+                font-size: 2.5em;
+                width: 34%;
+                max-width: 425px;
+            }
+            .logo {
+                width: 23.72%;
+            }
+            .icon {
+                width: 40%;
+                max-width: 422px;
+                margin: 0;
+                padding: 5px;
+            }
+            .main-nav {
+                max-width: initial;
+                width: 100%;
+                margin: 0;
+            }
+            .main-nav a {
+                font-size: 1.15em;
+                width: 150px;
+            }
+        }
 
-
-/* Flex Box */
-@media (min-width: 650px) {
-    .main-header, .main-nav {
-		display: flex;
-	}
-	.main-header, .main-nav {
-		flex-direction: column;
-		align-items: center;
-	}
-
-}
-
-@media (min-width: 1070px) {
-    .main-header {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-}
+        /* Main-content */
+        @media (min-width: 650px) {
+            ul {
+                margin-bottom: auto;
+                width: 262px;
+                height: 300px;
+                border: 5px outset crimson;
+                padding: 20px;
+                border-radius: 35px;
+                /* background-color: honeydew; */
+            }
+            .main-content {
+                padding: 0 0 16px 0;
+                border-top: initial;
+	            border-bottom: initial;
+            }
+        }
+        @media (min-width: 1070px) {
+            ul {
+                width: 410px;
+                height: 190px;
+            }
+            .main-content {
+                padding: 0 0 16px 0;
+                border-top: initial;
+	            border-bottom: initial;
+            }
+        }

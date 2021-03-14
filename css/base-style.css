@@ -7,7 +7,16 @@
 
 
 /* ---- Navigation ---- */
-
+.main-header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+.name {
+	border-radius: 10px;
+}
+img {
+    border-radius: 15px;
+}
 .name {
 	font-size: 1.5em;
 	margin: 0;
@@ -70,22 +79,26 @@
 	transform: scale(1.25);
 }
 
-/* ---- Layout Containers ---- */
-
-.main-header {
-	padding-top: .5em;
-	padding-bottom: .5em;
+/* ---- Who We Are ---- */
+.main-content {
+	margin-left: auto;
+    margin-right: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
-
-ul, i, b {
-    background: gainsboro;
+.main-content {
+	width: 90%;
+	margin: 30px 20px;
+	border-top: 5px solid black;
+	border-bottom: 5px solid black;
 }
-
-img {
-    border-radius: 5%;
+ul {
+	width: 90%;
+	padding: 0 0;
+	border-top: 2.5px dotted crimson;
+	border-bottom: 2.5px dotted crimson;
+	text-align: justify;
 }
 /* Form Fields -------------------- */
-
-
-/* Media Queries -------------------- */
 
