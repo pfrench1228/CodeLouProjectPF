@@ -31,7 +31,7 @@ function menuFxn() {
             } else {
               d.style.width = "70%";
             }
-          e.style.marginLeft = "0%";
+          e.style.marginLeft = "10%";
             }
         }
   }

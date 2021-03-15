@@ -1,5 +1,4 @@
 /* Media Queries */
-
     /* Flex Box */
     @media (min-width: 650px) {
         .main-header, .main-nav {
@@ -39,7 +38,7 @@
                 padding: 5px;
                 margin-left: auto;
                 margin-right: auto;
-                border-radius: 25px;
+                /* border-radius: 10px; */
                 background: ivory;
             }
             .burg {
@@ -49,7 +48,7 @@
                 position: initial;
                 width: 30%;
                 max-width: 225px;
-                border-radius: 35px;
+                border-radius: 10px;
                 /* background: black; */
             }
             .name, .logo, .icon {
@@ -60,14 +59,14 @@
         @media (min-width: 1070px) {
             .name {
                 font-size: 2.5em;
-                width: 34%;
+                width: 39%;
                 max-width: 425px;
             }
             .logo {
-                width: 23.72%;
+                width: 20%;
             }
             .icon {
-                width: 40%;
+                width: 39%;
                 max-width: 422px;
                 margin: 0;
                 padding: 5px;
@@ -80,34 +79,5 @@
             .main-nav a {
                 font-size: 1.15em;
                 width: 150px;
-            }
-        }
-
-        /* Main-content */
-        @media (min-width: 650px) {
-            ul {
-                margin-bottom: auto;
-                width: 262px;
-                height: 300px;
-                border: 5px outset crimson;
-                padding: 20px;
-                border-radius: 35px;
-                /* background-color: honeydew; */
-            }
-            .main-content {
-                padding: 0 0 16px 0;
-                border-top: initial;
-	            border-bottom: initial;
-            }
-        }
-        @media (min-width: 1070px) {
-            ul {
-                width: 410px;
-                height: 190px;
-            }
-            .main-content {
-                padding: 0 0 16px 0;
-                border-top: initial;
-	            border-bottom: initial;
             }
         }

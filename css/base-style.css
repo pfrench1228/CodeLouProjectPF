@@ -1,10 +1,8 @@
+/* Base Styles -------------------- */
 * {
     box-sizing: border-box;
     background-color: ivory;
 }
-
-/* Base Styles -------------------- */
-
 
 /* ---- Navigation ---- */
 .main-header {
@@ -42,7 +40,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    min-width: 250px;
+    min-width: 200px;
     max-width: 300px;
 }
 .main-nav a {
@@ -59,7 +57,6 @@ img {
 }
 
 /* Hamburger Menu */
-
 .main-nav {
 	display: none;
 }
@@ -79,10 +76,8 @@ img {
 	transform: scale(1.25);
 }
 
-/* ---- Who We Are ---- */
+/* ---- Main Content ---- */
 .main-content {
-	margin-left: auto;
-    margin-right: auto;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -90,15 +85,42 @@ img {
 .main-content {
 	width: 90%;
 	margin: 30px 20px;
+	margin-left: auto;
+    margin-right: auto;
 	border-top: 5px solid black;
 	border-bottom: 5px solid black;
 }
 ul {
-	width: 90%;
-	padding: 0 0;
-	border-top: 2.5px dotted crimson;
-	border-bottom: 2.5px dotted crimson;
+	width: 80%;
+	padding: 10px;
+	border: 7px solid crimson;
+	border-radius: 25px 10px;
+	box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 	text-align: justify;
 }
-/* Form Fields -------------------- */
 
+/* Rolling Pictures -------------------- */
+.pixs {
+	display: block;
+	width: 60%;
+	min-width: 200px;
+	max-width: 350px;
+	padding: 5px;
+	margin: 25% auto 10px auto;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.pixtxt {
+	display: block;
+	font-size: .75em;
+	margin: 0 auto 25% auto;
+	width: 115px;
+	height: 100%;
+	text-align: center;
+	padding: 2px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+.pixtxt:after {
+	content: ' \27A4';
+}
+/* Form Fields -------------------- */

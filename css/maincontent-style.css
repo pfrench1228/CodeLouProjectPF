@@ -1,0 +1,72 @@
+/* Key Frames -------------------- */
+@keyframes bordermove1 {
+	from {border-top: 10px solid ivory;}
+	to {border-top: 10px solid crimson;}
+}
+@keyframes bordermove2 {
+	from {border-right: 10px solid ivory;}
+	to {border-right: 10px solid crimson;}
+}
+@keyframes bordermove3 {
+	from {border-bottom: 10px solid ivory;}
+	to {border-bottom: 10px solid crimson;}
+}
+@keyframes bordermove4 {
+	from {border-left: 10px solid ivory;}
+	to {border-left: 10px solid crimson;}
+}
+
+/* Media Queries */
+    /* Main-content */
+    @media (min-width: 650px) {
+        ul {
+            margin-bottom: auto;
+            width: 275px;
+            height: 310px;
+            padding: 20px;
+            border-radius: 50px 20px;
+            /* background-color: honeydew; */
+        }
+        ul {
+            border: 10px solid ivory;
+            animation: bordermove1 5s ease 0s 1, bordermove2 5s ease .5s 1, bordermove3 5s ease 1s 1, bordermove4 5s ease 1.5s 1;
+            border: 10px solid crimson;
+            box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        }
+        .main-content {
+            padding: 0 0 16px 0;
+            border-top: initial;
+            border-bottom: initial;
+        }
+    }
+    @media (min-width: 1070px) {
+        ul {
+            width: 410px;
+            height: 225px;
+        }
+        .main-content {
+            padding: 0 0 16px 0;
+            border-top: initial;
+            border-bottom: initial;
+        }
+    }
+
+    /* Picture Roller */
+    @media (min-width: 490px) {
+        .pixtxt {
+            font-size: 1em;
+            width: 150px;
+            height: 30px;
+        }
+    }
+    @media (min-width: 650px) {
+        .pixs {
+            margin: 125px auto 25px auto;
+        }
+        .pixtxt {
+            font-size: 1.25em;
+            width: 190px;
+            height: 38px;
+            margin: 0 auto 125px auto;
+        }
+    }
