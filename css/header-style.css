@@ -2,7 +2,7 @@
     /* Flex Box */
     @media (min-width: 650px) {
         .main-header, .main-nav {
-            display: flex !important;
+            display: flex; /*!important*/ 
             flex-direction: column;
             align-items: center;
         }
@@ -39,34 +39,34 @@
                 margin-left: auto;
                 margin-right: auto;
                 /* border-radius: 10px; */
-                background: ivory !important;
+                background: ivory; /*!important*/
             }
             .burg {
                 display: none;
             }
             .icon {
                 position: initial;
-                width: 30% !important;
+                width: 30%; /*!important*/
                 max-width: 225px;
                 border-radius: 10px;
                 /* background: black; */
             }
             .name, .logo, .icon {
                 padding: 0 5px;
-                margin: 4px 0 !important;
+                margin: 4px 0; /*!important*/
             }
         }
         @media (min-width: 1070px) {
             .name {
                 font-size: 2.5em;
-                width: 40% !important;
+                width: 40%; /*!important*/
                 max-width: 425px;
             }
             .logo {
                 width: 20%;
             }
             .icon {
-                width: 40% !important;
+                width: 40%; /*!important*/
                 max-width: 422px;
                 margin: 0;
                 padding: 5px;

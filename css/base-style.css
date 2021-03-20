@@ -63,7 +63,6 @@ img {
 .icon {
 	display: block;
 	position: absolute;
-	/* position: initial; */
 	width: 15%;
 	right: 0;
 	top: 0;
@@ -75,6 +74,33 @@ img {
 .icon img:hover {
 	transform: scale(1.25);
 }
+			/* onclick js */
+			.iconjs {
+				width: 25%;
+			}
+			.main-navjs {
+				display: block;
+				background: black;
+				border-radius: 15px;
+			}
+			.burgjs {
+				max-width: 60%;
+			}
+			.namejs {
+				width: 83%;
+			}
+			.logojs {
+				margin-left: 10%;
+			}
+			@media (max-width: 350px) {
+				.namejs {
+					width: 70%;
+				}
+			}
+
+
+
+
 
 /* ---- Main Content ---- */
 .main-content {
