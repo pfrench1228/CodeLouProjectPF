@@ -19,15 +19,26 @@ let picary = [
 
 let aryidx = 0;
 
-function forwardpic() {
-    aryidx += 1;
+function flippic(piccall) {
+    if (piccall === 'forward') {
+        
+        if(aryidx >= picary.length - 1) {
+            aryidx = -1;
+        }
+
+        aryidx += 1;
+        let whichpic = picary[aryidx];
+        document.getElementById("myImg").src = whichpic.photo;
+    }
     
-    let whichpic = picary[aryidx];
-    // console.log(whichpic.photo);
+    if (piccall === 'backward') {
+        
+        if(aryidx <= 0) {
+            aryidx = picary.length;
+        }
 
-    document.getElementById("myImg").src = whichpic.photo;
-
-    if(aryidx >= picary.length - 1) {
-        aryidx = -1;
+        aryidx += -1;
+        let whichpic = picary[aryidx];
+        document.getElementById("myImg").src = whichpic.photo;
     }
 }

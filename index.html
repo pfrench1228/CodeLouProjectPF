@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/base-style.css">
     <link rel="stylesheet" href="css/header-style.css">
     <link rel="stylesheet" href="css/maincontent-style.css">
-    <script src="js/onclick.js"></script>
+    <script src="js/burgclick.js"></script>
     <script src="js/rollthru.js"></script>
     <title>Hill View Farms</title>
 </head>
@@ -34,8 +34,8 @@
 
         <div class="pictures">
             <div class="btnoptions">
-                <div class="pixfwrd" onclick="forwardpic()">See Who We Are</div>
-                <div class="pixbwrd" onclick="backwardpic()">Previous</div>
+                <div class="picfwrd" onclick="flippic('forward')">See Who We Are</div>
+                <div class="picbwrd" onclick="flippic('backward')"></div>
             </div>
             <img class="pixs" id="myImg" src="img/HVFcow.png" alt="Hill View Farms Marketing Image"></img>
         </div>
