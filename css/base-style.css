@@ -68,7 +68,7 @@ img {
 	top: 0;
 }
 .icon img{
-    width: 100%;
+    width: 90%;
 	padding: 10% 10%;
 }
 .icon img:hover {
@@ -98,10 +98,6 @@ img {
 				}
 			}
 
-
-
-
-
 /* ---- Main Content ---- */
 .main-content {
 	display: flex;
@@ -126,19 +122,27 @@ ul {
 }
 
 /* Rolling Pictures -------------------- */
+.btnoptions {
+	display: flex;
+	justify-content: space-evenly;
+}
+.pictures {
+	min-height: 300px;
+	margin: 25% auto 25% auto;
+}
 .pixs {
 	display: block;
 	width: 60%;
 	min-width: 200px;
 	max-width: 350px;
-	padding: 5px;
-	margin: 25% auto 10px auto;
-	box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+	padding: .11px;
+	margin: 0 auto 0 auto;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
-.pixtxt {
+.pixfwrd {
 	display: block;
 	font-size: .75em;
-	margin: 0 auto 25% auto;
+	margin: 0 auto 10px auto;
 	width: 115px;
 	height: 100%;
 	text-align: center;
@@ -146,7 +150,8 @@ ul {
 	border: 1px solid black;
 	border-radius: 5px;
 }
-.pixtxt:after {
+
+.pixfwrd:after {
 	content: ' \27A4';
 }
 /* Form Fields -------------------- */
