@@ -128,8 +128,8 @@ ul {
 	justify-content: center;
 }
 .pictures {
-	min-height: 300px;
-	margin: 25% auto 25% auto;
+	min-height: 250px;
+	margin: 25% auto 10% auto;
 }
 .picfwrd, .picbwrd {
 	display: block;
@@ -162,3 +162,41 @@ ul {
 }
 
 /* Form Fields -------------------- */
+h3 {
+	font-size: 1em;
+}
+legend {
+	position: relative;
+	font-size: 1.2em;
+	color: ivory;
+	top: 22px;
+	left: 0;
+	text-align: center;
+	border: none;
+	padding: 3px 10px;
+	background-color: dimgray;
+}
+.formfield {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	max-width: 350px;
+	padding: 25px 10px;
+	margin: 0 auto;
+	background-color: lightslategray;
+	border: none;
+	border-radius: 20px
+}
+.formfield label {
+	background-color: burlywood;
+	padding: 1.5% 3%;
+	margin: 3% auto 3% 0;
+	border-radius: 3px;
+}
+.formfield input {
+	background-color: ivory;
+	padding: 2%;
+	width: 90%;
+	margin: 0 auto;
+	border: none;
+}
