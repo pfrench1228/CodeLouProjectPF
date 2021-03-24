@@ -55,13 +55,16 @@
     @media (min-width: 490px) {
         .picfwrd {
             font-size: 1em;
-            width: 150px;
+            width: 160px;
             height: 30px;
         }
         .picbwrd {
-            font-size: 1em;
-            width: 50px;
+            width: 45px;
             height: 30px;
+        }
+        .picbwrd img {
+            margin: 0 auto;
+            width: 37px;
         }
         .picfwrd, .picbwrd {
             margin: 10px;
@@ -69,6 +72,20 @@
         .pictures {
             min-height: 300px;
             margin: 5% auto 5% auto;
+        }
+        .rarrow {
+            display: inline;
+            width: 25%;
+            position: relative;
+            top: 3px;
+            left: 0px;
+        }
+        .larrow {
+            display: inline;
+            width: 125%;
+            position: relative;
+            top: 2px;
+            left: -8px;
         }
     }
     @media (min-width: 1070px) {

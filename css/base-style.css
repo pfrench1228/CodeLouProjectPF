@@ -122,36 +122,51 @@ ul {
 }
 
 /* Rolling Pictures -------------------- */
+.pictures {
+	min-height: 250px;
+	margin: 25% auto 10% auto;
+}
 .btnoptions {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 }
-.pictures {
-	min-height: 250px;
-	margin: 25% auto 10% auto;
-}
 .picfwrd, .picbwrd {
 	display: block;
 	font-size: .75em;
-	width: 115px;
+	width: 125px;
 	height: 100%;
 	text-align: center;
-	padding: 2px;
+	padding: 2px 0 2px 10px;
 	border: 1px solid black;
 	border-radius: 5px;
 	margin: 2px;
 }
 .picbwrd {
-	width: 35px;
+	width: 40px;
+	text-align: center;
 }
-.picfwrd::after {
-	/* content: ' \2B9E'; */
+.rarrow {
+	display: inline;
+	width: 25%;
+	position: relative;
+	top: 2px;
+	left: 0px;
+}
+.larrow {
+	display: inline;
+	width: 28.25px;
+	position: relative;
+	top: 2px;
+	left: -5px;
+}
+/* .picfwrd::after {
+	content: ' \2B9E';
 	content: ' \img/Menu.jpg';
 }
 .picbwrd::before {
 	content: '\2B9C';
-}
+} */
 .pixs {
 	display: block;
 	width: 60%;
@@ -174,10 +189,10 @@ h3 {
 }
 legend {
 	position: relative;
-	font-size: 1.2em;
-	color: ivory;
 	top: 22px;
 	left: 0;
+	font-size: 1.2em;
+	color: ivory;
 	text-align: center;
 	border: none;
 	padding: 3px 10px;
