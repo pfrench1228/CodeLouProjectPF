@@ -96,12 +96,18 @@
 
     /* Form Fields -------------------- */
     @media (min-width: 468px) {
-        h3 {
+        .formdiv {
+            width: 450px;
+            margin: 0 auto;
+            border: 3px solid rgba(0, 0, 0, 0.5);
+        }
+        .formwords {
             font-size: 1.2em;
             padding: 1em 1em;
             margin: 0 auto;
-            width: 60%;
+            width: 100%;
             max-width: 450px;
+            /* border-top: none; */
         }
         .formfield {
             margin: 1em auto;

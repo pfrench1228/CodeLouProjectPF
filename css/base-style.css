@@ -179,13 +179,18 @@ ul {
 }
 
 /* Form Fields -------------------- */
+.formdiv {
+	border: 3px solid floralwhite;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
 h3 {
 	font-size: 1em;
 	padding: 0 1em;
 	margin: 0 auto;
-	width: 80%;
-	border-top: 3px solid black;
-	border-bottom: 3px solid black;
+	width: 100%;
+	/* border-top: 3px solid crimson; */
+	border-bottom: 3px solid rgba(0, 0, 0, 0.5);
+	/* box-shadow: rgb(250, 5, 5) 0px 5px; */
 	text-align: center;
 }
 legend {
@@ -205,7 +210,7 @@ legend {
 	width: 80%;
 	max-width: 350px;
 	padding: 25px 10px;
-	margin: 0 auto;
+	margin: 25px auto 0;
 	background-color: lightslategray;
 	border: none;
 	border-radius: 20px
@@ -223,3 +228,8 @@ legend {
 	margin: 0 auto;
 	border: none;
 }
+button {
+	display: block;
+	margin: 0 auto 20px auto;
+}
+
