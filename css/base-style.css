@@ -164,6 +164,12 @@ ul {
 /* Form Fields -------------------- */
 h3 {
 	font-size: 1em;
+	padding: 0 1em;
+	margin: 0 auto;
+	width: 80%;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	text-align: center;
 }
 legend {
 	position: relative;

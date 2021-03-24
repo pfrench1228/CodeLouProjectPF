@@ -76,3 +76,17 @@
             margin: 20px;
         }
     }
+
+    /* Form Fields -------------------- */
+    @media (min-width: 468px) {
+        h3 {
+            font-size: 1.2em;
+            padding: 1em 1em;
+            margin: 0 auto;
+            width: 60%;
+            max-width: 450px;
+        }
+        .formfield {
+            margin: 1em auto;
+        }
+    }
