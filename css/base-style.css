@@ -145,10 +145,11 @@ ul {
 .picbwrd {
 	width: 35px;
 }
-.picfwrd:after {
-	content: ' \2B9E';
+.picfwrd::after {
+	/* content: ' \2B9E'; */
+	content: ' \img/Menu.jpg';
 }
-.picbwrd:before {
+.picbwrd::before {
 	content: '\2B9C';
 }
 .pixs {
