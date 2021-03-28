@@ -20,12 +20,15 @@
     /* Main-content */
     @media (min-width: 650px) {
         ul {
-            margin-bottom: auto;
+            /* margin-bottom: auto; */
             width: 275px;
             height: 310px;
             padding: 20px;
             border-radius: 50px 20px;
             /* background-color: honeydew; */
+        }
+        .firstul {
+            height: 250px;
         }
         ul {
             border: 10px solid ivory;
@@ -42,7 +45,10 @@
     @media (min-width: 1070px) {
         ul {
             width: 410px;
-            height: 225px;
+            height: 220px;
+        }
+        .firstul {
+            height: 180px;
         }
         .main-content {
             padding: 0 0 16px 0;
@@ -111,5 +117,42 @@
         }
         .formfield {
             margin: 1em auto;
+        }
+    }
+
+    /* Footer -------------------- */
+    @media (min-width: 825px) {
+        .main-footer {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 95%;
+            padding: 10px 0 0;
+            margin: 10% auto 0 auto;
+            background-color: indianred;
+            border-radius: 5px 5px 25px 25px;
+            /* border-top: none; */
+        }
+        .main-footer * {
+            color: black;
+            background-color: ivory;
+            font-size: 1.1em;
+        }
+        .ending {
+            font-weight: bolder;
+            height: 28px;
+            max-width: 280px;
+        }
+        .details {
+            font-style: oblique;
+            height: 95px;
+            width: 200px;
+        }
+        .copyright {
+            font-size: .9em;
+            max-width: 280px;
+            height: 45px;
+            margin: 10px auto;
         }
     }
