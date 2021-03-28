@@ -1,4 +1,4 @@
-  I have created a website for my significant other's brother who owns a small business back home! He owns a small market store where they sell Kentucky Proud products and local farm meat and produce.  I wanted to have a dynamic navigation menu, picture roller, contact form, and excellently styled webiste.  Google chrome and mobile view through Apple's safari has worked perfectly for viewing my website.
+  I have created a website for my significant other's brother who owns a small business back home! He owns a small market store where they sell Kentucky Proud products and local farm meat and produce.  I wanted to have a dynamic navigation menu, picture roller, contact form, and excellent styles.  Google chrome and mobile view through Apple's safari has worked perfectly for viewing my website.
   
   1) I have created a dynamic website with a number of media queries which adjust the header, main content, and footer.  
   2) I have utilized flex boxes to accomplish adjusting the main header, the main nav, main content, and footer with the media queries.  
